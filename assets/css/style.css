@@ -54,7 +54,7 @@ footer {
     /* background-color: rgb(144, 24, 241); */
 }
 
-/*-----------------------------------------------position & case styling */
+/*-----------------------------------------------global styling */
 
 .uppercase {
     text-transform: uppercase;
@@ -86,8 +86,11 @@ footer {
     top: 0; 
 }
 
+.hvr-sweep-to-right:before {
+    background-color: black;
+}
 
-/*-----------------------------------------------custom styling */
+
 a {
     color: rgb(245, 245, 245);
     text-decoration: none;
@@ -105,10 +108,7 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* .banner {
-   padding: 10px;
-
-} */
+/*-----------------------------------------------custom styling */
 
 .nav-components {
     padding: 20px;
@@ -124,14 +124,13 @@ p {
     padding: 5px;
 }
 
-
 .my-nme:hover {
     color: #f9db03;
 }
 
 .resume-btn {
-    border: #f9db03 solid 5px;
-    color: #f9db03;
+    border:  rgb(245, 245, 245) solid 3px;
+    color:  rgb(245, 245, 245);
     border-radius: 50px;
     padding: 10px 20px 10px 20px;
     float: right;
@@ -140,12 +139,12 @@ p {
     font-weight: 600;
     letter-spacing: .2rem;
 }
+
 .resume-btn:hover {
-    color: rgb(245, 245, 245);
+    color: #f9db03;
     font-size: 25px;
+    border: #f9db03 solid 3px;
 }
-
-
 
 .me-avatar {
     width: 350px;
@@ -211,12 +210,9 @@ p {
         "footer";
     }
 
-    /* .logo {
-        display: none;
-    } */
+   
     
-    .
-my-nme{
+    .my-nme{
         font-size: 30px;
         font-weight: 600;
     }
@@ -255,12 +251,8 @@ my-nme{
         "footer";
     }
 
-    /* .logo {
-        display: none;
-    } */
 
-    .
-my-nme {
+    .my-nme {
         font-size: 40px; 
         font-weight: 600;
     }
