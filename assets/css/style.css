@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+/* #f9db03 */
+
 /*-----------------------------------------------site settings */
 *{
     margin: 0; 
@@ -70,6 +72,14 @@ footer {
     text-align: center;
 }
 
+.larger {
+    font-size: 70px;
+}
+
+.normal {
+    font-weight: 500;
+}
+
 .stick {
     position:y;
     position: sticky;
@@ -80,6 +90,7 @@ footer {
 /*-----------------------------------------------custom styling */
 a {
     color: rgb(245, 245, 245);
+    text-decoration: none;
 }
 
 h1, 
@@ -94,34 +105,51 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.banner {
+/* .banner {
    padding: 10px;
+
+} */
+
+.nav-components {
+    padding: 20px;
 }
 
-.banner > img {
-    float: left;
+.banner > span {
+    display: inline-block;
 }
 
-.banner > h2 {
-    line-height: 140px;
+.my-nme {
+    font-weight: 800;
+    letter-spacing: .20rem;
+    padding: 5px;
 }
 
-.ffl-title{
-    margin-bottom: 5px;
+
+.my-nme:hover {
+    color: #f9db03;
+}
+
+.resume-btn {
+    border: #f9db03 solid 5px;
+    color: #f9db03;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    float: right;
+    font-size: 20px;
+    margin: 45px;
     font-weight: 600;
-    letter-spacing: .25rem;
-    font-size: 25px; 
+    letter-spacing: .2rem;
+}
+.resume-btn:hover {
+    color: rgb(245, 245, 245);
+    font-size: 25px;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-}
+
 
 .me-avatar {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     margin-bottom: 10px;
 }
 
@@ -129,7 +157,18 @@ p {
     margin-bottom: 25px;
     font-weight: 600;
     letter-spacing: .25rem;
-    font-size: 18px; 
+    font-size: 25px; 
+}
+
+.handles {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.handles:hover {
+    font-size: 16px;
+    color: #f9db03;
+  
 }
 
 .get-in-touch{
@@ -146,7 +185,7 @@ p {
 
 .links > a:hover {
     font-size: 102px;  
-    color: rgb(255, 225, 0);
+    color: #f9db03;
     text-shadow: rgb(17, 17, 17, .8) 8px 8px;  
 }
 
@@ -172,12 +211,13 @@ p {
         "footer";
     }
 
-    .logo {
+    /* .logo {
         display: none;
-    }
+    } */
     
-    .ffl-title{
-        font-size: 14px;
+    .
+my-nme{
+        font-size: 30px;
         font-weight: 600;
     }
    
@@ -215,12 +255,13 @@ p {
         "footer";
     }
 
-    .logo {
+    /* .logo {
         display: none;
-    }
+    } */
 
-    .ffl-title {
-        font-size: 16px; 
+    .
+my-nme {
+        font-size: 40px; 
         font-weight: 600;
     }
 
@@ -258,7 +299,8 @@ p {
         "footer";
     }
 
-    .ffl-title{
+    .
+my-nme{
         font-size: 16px; 
         font-weight: 600;
     }
@@ -299,7 +341,8 @@ p {
         "footer";
     }
 
-    .ffl-title{
+    .
+my-nme{
         font-size: 20px; 
         font-weight: 600;
     }
