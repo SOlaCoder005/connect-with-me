@@ -200,7 +200,46 @@ p {
 }
 
 /*For small screens*/
-@media screen and (max-width: 412px) and (min-width: 321px) {
+@media screen and (max-width: 395px) and (min-width: 321px) {
+
+    .site-cont {
+        display: grid;
+        width:100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "nav"
+        "main"
+        "sect"
+        "footer";
+    }
+
+    .ffl-title{
+        font-size: 16px; 
+        font-weight: 600;
+    }
+
+    .banner > h2 {
+        line-height: 140px;
+        margin: auto;
+    }
+
+    .job-title{
+        font-size: 16px; 
+    }
+
+    .links {
+        font-size: 52px;
+        margin: 0 5px 0 5px ;
+    }
+
+    .links > a:hover {
+        font-size: 55px;  
+    }
+}
+
+@media screen and (max-width: 412px) and (min-width: 396px) {
 
     .site-cont {
         display: grid;
