@@ -211,19 +211,32 @@ p {
     }
 
    
-    
     .my-nme{
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 600;
     }
-   
-    .banner > h2 {
-        text-align: center;
-        margin: auto;
+
+    .resume-btn {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        float: left;
+        font-size: 20px;
+
+    }
+
+    .me-avatar {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
     }
 
     .job-title{
-        font-size: 12px; 
+        font-size: 14px; 
+    }
+
+    .handles {
+        display: none;
     }
 
     .links {
@@ -252,23 +265,35 @@ p {
     }
 
 
-    .my-nme {
-        font-size: 40px; 
+    .my-nme{
+        font-size: 50px;
         font-weight: 600;
     }
 
-    .banner > h2 {
-        text-align: center;
-        margin: auto;
+    .resume-btn {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        float: left;
+        font-size: 20px;
+    }
+
+    .me-avatar {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
     }
 
     .job-title{
-        font-size: 16px; 
+        font-size: 14px; 
+    }
+
+    .handles {
+        display: none;
     }
 
     .links {
-        font-size: 52px;
-        margin: 0 5px 0 5px ;
+        font-size: 50px;
     }
 
     .links > a:hover {
@@ -291,19 +316,22 @@ p {
         "footer";
     }
 
-    .
-my-nme{
-        font-size: 16px; 
+    .my-nme{
+        font-size: 50pxpx; 
         font-weight: 600;
     }
 
-    .banner > h2 {
-        line-height: 140px;
-        margin: auto;
+    .resume-btn {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        float: left;
+        font-size: 20px;
+
     }
 
     .job-title{
-        font-size: 16px; 
+        font-size: 18px; 
     }
 
     .links {
@@ -333,8 +361,7 @@ my-nme{
         "footer";
     }
 
-    .
-my-nme{
+    .my-nme{
         font-size: 20px; 
         font-weight: 600;
     }
