@@ -146,8 +146,8 @@ p {
 
 .links > a:hover {
     font-size: 102px;  
-    color: rgb(255, 238, 0);
-    text-shadow: rgb(17, 17, 17, .8) 6px 6px;  
+    color: rgb(255, 225, 0);
+    text-shadow: rgb(17, 17, 17, .8) 8px 8px;  
 }
 
 .copyright  {
